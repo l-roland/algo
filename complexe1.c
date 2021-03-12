@@ -60,8 +60,8 @@ cplx complex_mul(cplx x, cplx y)
 cplx complex_div(cplx x, cplx y)
 {
     cplx res;
-    res.re=x.re/y.re;
-    res.im=x.im/y.im;
+    res.re=(x.re*y.re+x.im*y.im)/(pow(y.re,2)+pow(y.im,2));
+    res.im=(x.im*y.re-x.re*y.im)/(pow(y.re,2)+pow(y.im,2));
     return res;
 }
 
