@@ -33,7 +33,7 @@ Calcul d'intégrale à l'aide de la méthode de l'encadrement
 
 ```
 gcc integrale2.c -o integrale2 -lm
-./integrale1
+./integrale2
 ```
 
 - Programme 3 : `integrale3.c`
@@ -58,8 +58,16 @@ gcc integrale4.c -o integrale4 -lm
 Structures, complexes, add, sub, mul, div, module et conjugué
 
 ```
-gcc integrale1.c -o integrale1 -lm
+gcc complexe1.c -o complexe1 -lm
 ./complexe1
+```
+
+- Programme 2 : `complexe2.c`
+Structures, complexes, add, sub, mul, div, module et conjugué avec retour d'erreur
+
+```
+gcc complexe2.c -o complexe2 -lm
+./complexe2
 ```
 
 - Programme 3 : `complexe3.c`
